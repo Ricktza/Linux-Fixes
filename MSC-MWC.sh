@@ -15,3 +15,6 @@ evdev-joystick --e "$DEVICE" -a 2 -m -255 -M 255 --deadzone 0
 evdev-joystick --e "$DEVICE" -a 5 -m -255 -M 255 --deadzone 0
 
 echo "MWC G29 Profile Applied: Symmetric Axes Active."
+
+
+# evdev-joystick - linuxconsole
