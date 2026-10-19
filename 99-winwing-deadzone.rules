@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="input", KERNEL=="event*", ATTRS{idVendor}=="4098", ATTRS{idProduct}=="bc2a", RUN+="/bin/sh -c '/usr/bin/evdev-joystick -s /dev/input/%k -a 0 -d 255; /usr/bin/evdev-joystick -s /dev/input/%k -a 1 -d 255; /usr/bin/evdev-joystick -s /dev/input/%k -a 2 -d 255'"
